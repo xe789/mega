@@ -4,7 +4,7 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
 from flask_admin import Admin
 from flask_admin.contrib.sqla import ModelView
-from .models import User, Post
+from app.models import User, Post
 
 app = Flask(__name__)
 app.config.from_object(Config)
